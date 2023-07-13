@@ -29,7 +29,7 @@ p {
 }
 
 body {
-    background-color: var(--clr-greyish-blue);
+    background-color: var(--clr-dark-blue);
     display: grid;
     font-family: 'Manrope', sans-serif;
     min-height: 100vh;
@@ -83,6 +83,10 @@ img {
 
 /* media query */
 @media(max-width: 380px) {
+    body {
+        height: 120vh;
+        max-height: 400px;
+    }
     .visible {
         display: block;
     }
